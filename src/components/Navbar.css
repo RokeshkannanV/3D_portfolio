@@ -1,0 +1,31 @@
+/* .header {
+    position: relative;  
+  }
+  
+  .logo-popup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1); 
+    animation: popIn 0.5s forwards; 
+    z-index: 10; 
+  }
+  
+  .logo-3d {
+    width: 100px; 
+    height: 100px;  
+    transition: transform 0.3s ease; 
+    transform: translateZ(0);
+  }
+  
+  @keyframes popIn {
+    0% {
+      transform: translate(-50%, -50%) scale(0);
+      opacity: 0;
+    }
+    100% {
+      transform: translate(-50%, -50%) scale(1);
+      opacity: 1;
+    }
+  }
+   */
