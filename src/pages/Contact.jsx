@@ -168,7 +168,7 @@ const Contact = () => {
         </Canvas>
 
         {/* Bio image positioned on the right side */}
-        <div className="absolute right-0 left-60 top-20 h-full max-w-[250px] opacity-100" style={{ fontWeight: 'bold' }}>
+        <div className="absolute right-0 left-60 top-20 h-full max-w-[250px] opacity-120" style={{ fontWeight: 'bold' }}>
   <img
     src={BioImage}
     alt="Bio"

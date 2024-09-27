@@ -1,7 +1,7 @@
 .clickable-object { 
   position: absolute;
-  top: 80%; /* Adjust as needed */
-  right: 76%; /* Adjust as needed */
+  top: 93%; 
+  right: 36%; 
   transform: translate(-50%, -50%);
   padding: 10px 20px;
   background-color: #007bff;
@@ -9,16 +9,16 @@
   border-radius: 5px;
   cursor: pointer;
   text-align: center;
-  z-index: 10; /* Ensure it’s on top of other elements */
+  z-index: 10; 
 }
 
 .bio-container {
-  position: absolute; /* Ensure it's positioned relative to Home */
-  right: 20px; /* Adjust as needed for spacing */
-  top: 50%; /* Center vertically */
-  transform: translateY(-50%); /* Center vertically */
-  perspective: 1000px; /* Create a 3D space */
-  z-index: 20; /* Ensure it’s on top of other elements */
+  position: absolute; 
+  right: 20px; 
+  top: 50%; 
+  transform: translateY(-50%);
+  perspective: 1000px; 
+  z-index: 20; 
 }
 
 .bio-pic {
