@@ -8,12 +8,31 @@ const Navbar = () => {
       <NavLink to="/">
         <img src={Logo} alt="" className='w-16 h-16 object-contain'/>
       </NavLink>
-      <nav className='flex text-lg gap-9 text-medium'>
-        <NavLink to="/about" className={({isActive}) => isActive ? "text-blue-600" : "text-white"}>About</NavLink>
-        <NavLink to="/projects" className={({isActive}) => isActive ? "text-blue-600" : "text-white"}>Project</NavLink>
-      </nav>
+      <div className='btn flex'>
+  <NavLink 
+    to="/about" 
+    className={({ isActive }) => isActive ? "text-blue-600 mr-4" : "text-white mr-4"} // Add right margin here
+  >
+    About
+  </NavLink>
+  <NavLink 
+    to="/projects" 
+    className={({ isActive }) => isActive ? "text-blue-600" : "text-white"}
+  >
+    Project
+  </NavLink>
+</div>
+
+
+
+
+
     </header>
   )
 }
 
 export default Navbar
+
+{/* <nav className='flex text-lg gap-9 text-medium'> */}
+
+{/* </nav> */}
